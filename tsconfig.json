@@ -19,8 +19,9 @@
     "strictPropertyInitialization": true,             /* Check for class properties that are declared but not set in the constructor. */
     "noImplicitThis": true,                           /* Enable error reporting when 'this' is given the type 'any'. */
     "noImplicitReturns": true,                        /* Enable error reporting for codepaths that do not explicitly return in a function. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */,
+    // "typeRoots": ["./src/@types", "./node_modules/@types"]
   },
   "exclude": ["node_modules"],
-  "include": ["src", "test"]
+  "include": ["src"]
 }
