@@ -363,4 +363,4 @@ export default class Screen {
 	public static setMessage(msg: string) {
 		Screen.message = msg;
 	}
-}
+};
